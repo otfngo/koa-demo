@@ -1,5 +1,5 @@
-const koa = require('koa')
-const app = new koa()
+const Koa = require('koa')
+const app = new Koa()
 
 app.use(async (ctx, next) => {
   const start = Date.now()
